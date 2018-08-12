@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # Include overlays
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/nexus/overlay/common
 DEVICE_PACKAGE_OVERLAYS += \
     vendor/nexus/overlay/common
 
